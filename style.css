@@ -1,0 +1,46 @@
+
+.ref{
+	color: whitesmoke;
+}
+
+
+@keyframes form-onload{
+	0%{transform: scale(0.1);}
+	50%{transform: scale(0.5);}
+	100%{transform: scale(1.0);}
+}
+
+
+.Sec-Row{
+	display: inline-block;
+}
+
+.form{
+	border-style: solid;
+	display: inline-block; 
+	padding: 25px;
+}
+
+.gotoright{
+	margin-right: 250px;
+}
+
+.transparent {
+  background-color: rgba(255,255,255,0.5);
+}
+
+body{
+	background-image: url("https://static.vecteezy.com/system/resources/previews/001/879/850/non_2x/high-tech-futuristic-background-free-vector.jpg");
+}
+
+form{
+	animation-name: form-onload;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+#Trademark{
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	color: white;
+}
